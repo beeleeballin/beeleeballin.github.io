@@ -1,0 +1,54 @@
+---
+output:
+  html_document:
+    toc: false
+---
+
+<img src="images/columbia.png" style="width:30%">\
+
+#### MS in **Biostatistics**, Statistical Genetics Track
+**May 2023**
+\
+\
+<!-- Coursework:\ -->
+<!-- Data Science I & II; Biostatistical Methods I & II; Probabilistic Graphical Models; Statistical Genetic Modeling\ -->
+<!-- \ -->
+<!-- Activities:\ -->
+Computing Club; Badminton Club\
+\
+\
+
+<img src="images/vassar.png" style="width:7%">
+<img src="images/vassar_name.png" style="width:20%">\
+
+#### BA in **Biology**, Correlate (Minor) in **Computer Science**
+**Dec 2020**
+\
+\
+<!-- Coursework:\ -->
+<!-- Software Design & Implementation; Data Structures & Algorithms; Bioinformatics\ -->
+<!-- \ -->
+<!-- Activities:\ -->
+Office of International Services Representative; Lathrop House Member; Varsity Rugby; Badminton Club; Table Tennis Club\
+\
+<!-- Awards:\ -->
+2021 The Dorothy Evans Fellowship\
+2021 Virginia Swinburne Brownell Prize\
+2019 Vassar Internship Grant Fund\
+2017 Tri-State Collegiate Rugby XV Conference Champion\
+\
+\
+
+<img src="images/yuan_pei.png" style="width:45%">\
+
+#### Exchange Program: Yuan Pei Scholar
+**Fall 2018**
+\
+\
+<!-- Coursework:\ -->
+<!-- Statistical Genomics Analysis; Biochemical Pharmaceutics\ -->
+<!-- \ -->
+<!-- Activities:\ -->
+University Relations Delegate; Taiwan Relation Research Group\
+\
+\

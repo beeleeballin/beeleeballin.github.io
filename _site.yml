@@ -1,0 +1,23 @@
+name: "Brian Lee's Personal Site"
+output_dir: "."
+navbar:
+  title: "Home"
+  left: 
+    - text: "Education"
+      href: education.html
+    - text: "Work & Projects"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<jl6046@caa.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/beeleeballin/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/brian-johsuan-lee/
+    - icon: fa-map-marker fa-lg
+      href: https://maps.app.goo.gl/oVzoc3YrKEt8XNzSA
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/brian_lee0303/
+output:
+  html_document:
+    theme: sandstone

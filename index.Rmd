@@ -1,9 +1,12 @@
-# **Welcome**
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: false
+---
 
-## You can see everything Brian wants to show on his website. 
+# Brian Lee
 
-I'm a grad student living in the greatest city in the world. I have big dreams.
+I'm an aspiring data enthusiast living in New York City. I hold a master's degree in biostatistics, and I'm in active pursuit for a role in quantitative analytics in the biotech or pharmaceutical industry.
 
-Before you click elsewhere, think you should check out [the Verge](https://www.theverge.com/) and [SneakerNews](https://sneakernews.com/) because these are my favorite websites aside from this one. 
-
-![](https://www.mydral.com/wp-content/uploads/2020/04/datascience.gif)https://thepointsguy.com/
+![](https://www.mydral.com/wp-content/uploads/2020/04/datascience.gif)
