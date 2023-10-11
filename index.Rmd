@@ -1,12 +1,27 @@
 ---
-title: "My awesome website"
+title: "Hey, I'm Brian."
 output: 
   html_document:
     toc: false
 ---
-
-# Brian Lee
-
-I'm an aspiring data enthusiast living in New York City. I hold a master's degree in biostatistics, and I'm in active pursuit for a role in quantitative analytics in the biotech or pharmaceutical industry.
-
-![](https://www.mydral.com/wp-content/uploads/2020/04/datascience.gif)
+\
+\
+<div style="text-align: center;">
+  <img src="images/headshot.png" style="width:20%">
+  
+  <p style="font-size: 20px;">
+    I'm an aspiring data enthusiast living in New York City.
+  </p>
+  
+  <p style="font-size: 20px;">
+    I hold a master's degree in biostatistics,\
+    and I'm in active pursuit for a role in quantitative analytics in the biotech or pharmaceutical industry.\
+  </p>
+</div>
+\
+\
+<div style="text-align: center;">
+  <p style="font-size: 20px;">
+    As of now, this space only functions as an interactive resume, but stay tune for updates!  
+  </p>
+</div>
