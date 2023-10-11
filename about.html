@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -324,7 +248,10 @@ div.tocify {
   <a href="education.html">Education</a>
 </li>
 <li>
-  <a href="about.html">Work &amp; Projects</a>
+  <a href="work.html">Work Experience</a>
+</li>
+<li>
+  <a href="about.html">Projects &amp; Skills</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -371,107 +298,10 @@ div.tocify {
 </div>
 
 
-<div id="work-experience" class="section level2">
-<h2><strong>WORK EXPERIENCE</strong></h2>
-<p><br />
-<img src="images/sinai.png" style="width:45%"><br />
-</p>
-<div id="bioinformatician-ii-bunyavanich-lab" class="section level4">
-<h4>Bioinformatician II, Bunyavanich Lab</h4>
-<p>Jul 2023 – Oct 2023<br />
-</p>
-<ul>
-<li>Modeled the association between gene methylation patterns of ~450K
-CpGs and allergic reaction severity to peanut using advanced statistical
-techniques.</li>
-<li>Finalizing a review on the epigenomics of food allergy to be
-published on Pediatric Allergy and Immunology.<br />
-<br />
-</li>
-</ul>
-<p><img src="images/columbia-vagelos.png" style="width:60%"><br />
-</p>
-</div>
-<div id="ra-maniker-lab" class="section level4">
-<h4>RA, Maniker Lab</h4>
-<p>Nov 2022 – May 2023<br />
-</p>
-<ul>
-<li>Analyzed and visualized <a
-href="https://journals.lww.com/anesthesia-analgesia/abstract/9900/development_and_pilot_testing_of_a_programmatic.639.aspx">EPA
-rating trends</a> of ~500 anesthesiology residents at the university
-hospital.<br />
-<br />
-</li>
-</ul>
-<p><img src="images/columbia.png" style="width:30%"><br />
-</p>
-</div>
-<div id="ra-wang-lab" class="section level4">
-<h4>RA, Wang Lab</h4>
-<p>May 2022 – May 2023<br />
-</p>
-<ul>
-<li>Compiled feature interaction networks from databases and <a
-href="https://github.com/Karenxzr/MultiNEP">programmed</a> a published
-<a
-href="https://academic.oup.com/bioinformatics/article/39/6/btad333/7175421">graph-based
-tool</a> for multi-ome signal prioritization.</li>
-<li>Led expanded model validation across lab projects by leveraging the
-newly available <em>All of Us</em> platform.<br />
-<br />
-</li>
-</ul>
-<p><img src="images/regeneron.png" style="width:35%"><br />
-</p>
-</div>
-<div id="lab-assistant-protein-biochemistry-group"
-class="section level4">
-<h4>Lab Assistant, Protein Biochemistry Group</h4>
-<p>Mar 2021 – Jun 2021<br />
-</p>
-<ul>
-<li>Piloted a new sample request and delivery workflow; imported 30,000+
-protein tubes into the BioBank to support company-wide studies.</li>
-<li>Used ELNs, LIMS, BioRegistry, and more to perform sample management
-in a timely and responsible manner.</li>
-<li>Appointed as an immediate respondent for Protein Biochemistry for
-urgent needs during pandemic protocols.<br />
-<br />
-</li>
-</ul>
-<p><img src="images/vassar.png" style="width:7%">
-<img src="images/vassar_name.png" style="width:20%"><br />
-</p>
-</div>
-<div id="ta-computer-science-iii---software-design-implementation"
-class="section level4">
-<h4>TA, Computer Science III - Software Design &amp; Implementation</h4>
-<p>Sep 2020 – Dec 2020<br />
-</p>
-<ul>
-<li>Designed and graded student assignments and lab work.<br />
-<br />
-<br />
-<br />
-</li>
-</ul>
-<!-- #### Student Researcher, Schwarz Lab -->
-<!-- Mar 2020 – May 2020\ -->
-<!-- • Modeled the functional impact and likelihood of probable CDS mutations in Nemostella hsp70 gene using Python and Swiss-Prot.\ -->
-<!-- \ -->
-<!-- \ -->
-<!-- <img src="images/nchu.png" style="width:30%"> -->
-<!-- #### Research Assistant, Wu Lab -->
-<!-- Feb 2019 – Jun 2019\ -->
-<!-- •  Increased the mrjp1 gene expression in A. mellifera to enhance the nutritional richness of royal jelly by 35%, a lab record\ -->
-<!-- \ -->
-<!-- \ -->
-</div>
-</div>
 <div id="personal-favorites" class="section level2">
-<h2><strong>PERSONAL FAVORITES</strong></h2>
+<h2><strong>Personal Favorites</strong></h2>
 <p><br />
+<img src="images/badminton.png" style="width:25%"><br />
 </p>
 <div id="match-registration-site-lead" class="section level4">
 <h4>Match Registration Site Lead</h4>
@@ -484,6 +314,8 @@ registration system</a> to accommodate the growing organization.<br />
 <br />
 </li>
 </ul>
+<p><img src="images/choropleth.png" style="width:25%"><br />
+</p>
 </div>
 <div id="chronic-disease-campaign-captain" class="section level4">
 <h4>Chronic Disease Campaign Captain</h4>
@@ -494,8 +326,11 @@ registration system</a> to accommodate the growing organization.<br />
 href="https://beeleeballin.github.io/p8105-final_project/">impact of air
 quality and UV radiation</a> on chronic diseases in 4 US states.<br />
 <br />
+<br />
 </li>
 </ul>
+<p><img src="images/jet-propulsion.png" style="width:25%"><br />
+</p>
 </div>
 <div id="jelly-jet-propulsion-simulator" class="section level4">
 <h4>Jelly Jet Propulsion Simulator</h4>
@@ -548,8 +383,6 @@ Cross Validation / Imputation<br />
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -582,35 +415,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

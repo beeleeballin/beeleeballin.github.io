@@ -5,7 +5,9 @@ navbar:
   left: 
     - text: "Education"
       href: education.html
-    - text: "Work & Projects"
+    - text: "Work Experience"
+      href: work.html
+    - text: "Projects & Skills"
       href: about.html
   right:
     - icon: fa-envelope fa-lg
