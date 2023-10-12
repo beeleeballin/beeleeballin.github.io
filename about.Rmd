@@ -41,7 +41,7 @@ Sep 2019 – Dec 2020\
 \
 
 #### Proficient Coding Languages
-Python / R / SQL / Bash
+Python / R / SQL / SAS / Bash 
 \
 \
 
