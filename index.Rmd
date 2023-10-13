@@ -10,7 +10,7 @@ output:
   <img src="images/headshot.png" style="width:20%">
   
   <p style="font-size: 20px;">
-    I'm an aspiring data scientist living in New York City.
+    I'm an aspiring data scientist from Taiwan living in New York City.
   </p>
   
   <p style="font-size: 20px;">
