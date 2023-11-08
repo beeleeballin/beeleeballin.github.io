@@ -4,6 +4,15 @@ output:
     toc: false
 ---
 \
+<img src="images/cureGSD.png" style="width:45%">\
+
+#### Database Engineer Intern
+Oct 2023 – Present\
+
+* Developing a database used to analyze various biomarkers and other personal health information collected from patients with Glycogen Storage Disease Type 1a, as well as carriers of the G6PC mutation. 
+\
+\
+
 <img src="images/sinai.png" style="width:45%">\
 
 #### Bioinformatician II, Bunyavanich Lab
